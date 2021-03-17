@@ -18,6 +18,7 @@ public class hello {
 	
 	static void arrayFunction(int [] myArray) {
 		
+		// Sorting array 
 			Arrays.sort(myArray);
 			int i = 0;
 			System.out.println("Uniqe Element:");
@@ -25,6 +26,7 @@ public class hello {
 				if( myArray[i] != myArray[i+1]) {
 						System.out.print(" "+myArray[i]);
 				}
+				//jumping always to two adjacent values 
 				i = i+2;
 			}
 		}
